@@ -4,3 +4,10 @@
 
 ### Starting Tomcat server Windows
 ### Starting Tomcat server Linux/Mac
+
+
+# Running the JSP files on Tomcat Server
+
+## Windows
+
+## Mac/Linux

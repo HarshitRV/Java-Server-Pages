@@ -1,10 +1,14 @@
 <%
-    String choice = request.getParameter("col");
+    String choice = request.getParameter("colors");  
+
     String bg="";
+
     switch(choice){
         case "1": bg="red"; break;
         case "2": bg="green"; break;
         case "3": bg="blue"; break;
+        
+        default: bg="black";
     }
 %>
 

@@ -7,7 +7,7 @@
     <title>Display Full Name</title>
 </head>
 <body>
-    <form action="fullName.jsp" method="[GET, POST]">
+    <form action="fullName.jsp" method="GET">
         <label for="fName">First Name</label>
         <input type="text" name="fName" id="fName">
 

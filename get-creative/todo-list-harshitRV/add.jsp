@@ -4,7 +4,7 @@
 
     // Saving item to todo list
     if(task != null && !task.equals("")){
-        File file = new File("/Library/Tomcat/webapps/ROOT/JSP/get-creative/todo-list-harshitRV/list.txt");
+        File file = new File("/home/hritvik/tomcat/apache-tomcat-10.0.14/webapps/ROOT/Java-Server-Pages/get-creative/todo-list-harshitRV/list.txt");
 
         try {
             if (!file.exists()) {
@@ -15,8 +15,16 @@
             FileWriter fileWriter = new FileWriter(file, true);
 
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-            bufferedWriter.write("\n"+task);
+            BufferedReader br = new BufferedReader(new FileReader("/home/hritvik/tomcat/apache-tomcat-10.0.14/webapps/ROOT/Java-Server-Pages/get-creative/todo-list-harshitRV/list.txt"));
+            
+            if(br.readLine()==null){
+                bufferedWriter.write(task);   
+            } else {
+                bufferedWriter.write("\n"+task);
+            }
+            
             bufferedWriter.close();
+            br.close();
 
             // out.println("Done");
         } catch (IOException e) {
@@ -29,7 +37,7 @@
 
     try {
 
-        BufferedReader br = new BufferedReader(new FileReader("/Library/Tomcat/webapps/ROOT/JSP/get-creative/todo-list-harshitRV/list.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("/home/hritvik/tomcat/apache-tomcat-10.0.14/webapps/ROOT/Java-Server-Pages/get-creative/todo-list-harshitRV/list.txt"));
 
         String line = null;
 

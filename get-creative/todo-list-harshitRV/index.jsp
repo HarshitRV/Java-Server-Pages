@@ -3,6 +3,7 @@
     ArrayList<String> list = (ArrayList<String>) session.getAttribute("todo-list");
 
     for(String item: list){
+        out.print(item.length());
         out.print(item.equals("")+"<br>");
         out.println(item+"<br>");
     }
@@ -38,7 +39,7 @@
                                 <div class="todo-item">
                                     <div class="checker"><span class=""><input type="checkbox"></span></div>
                                     <span>
-                                      <%  if(!item.equals(" ")){  %>
+                                      <%  if(item.length() != 0){  %>
                                         <%=item%>
                                       <%  } %>
                                     </span>

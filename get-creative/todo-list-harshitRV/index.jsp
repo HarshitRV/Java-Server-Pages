@@ -1,13 +1,6 @@
 <%@ page import="java.util.*" %>
 <% 
     ArrayList<String> list = (ArrayList<String>) session.getAttribute("todo-list");
-
-    for(String item: list){
-        out.print(item.length());
-        out.print(item.equals("")+"<br>");
-        out.println(item+"<br>");
-    }
-    out.print(list.size());
 %>
 
 <!DOCTYPE html>
@@ -39,9 +32,7 @@
                                 <div class="todo-item">
                                     <div class="checker"><span class=""><input type="checkbox"></span></div>
                                     <span>
-                                      <%  if(item.length() != 0){  %>
                                         <%=item%>
-                                      <%  } %>
                                     </span>
                                     <a id="list-item" class="float-right remove-todo-item"><i class="icon-close"></i></a>
                                 </div>

@@ -5,18 +5,17 @@
 4. sessionHandling : Handles user sessions. 
 
 # Have a question? Need Help ? 
-## Join us on [HackerSpace Discord](https://discord.gg/5PNFxQF2nz) .
+Join us on [HackerSpace Discord](https://discord.gg/5PNFxQF2nz) .
 # Installation of Tomcat server .
-## 1. [On Windows](https://github.com/HarshitRV/Java-Server-Pages/wiki/Tomcat-Window-Installation)
-## 2. Linux and Mac
+1. [On Windows](https://github.com/HarshitRV/Java-Server-Pages/wiki/Tomcat-Window-Installation)
+2. Linux and Mac
 
-### Starting Tomcat server Windows
-### Starting Tomcat server Linux/Mac
+# Starting Tomcat 
+1. Windows
+2. Linux/Mac
 
 
 # Running the JSP files on Tomcat Server
-
-## Windows
-
-## Mac/Linux
+1. Windows
+2. Linux/Mac
 

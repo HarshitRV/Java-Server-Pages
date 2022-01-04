@@ -10,7 +10,7 @@
 ## Windows
 Remember the most important thing you must have installed java jdk before installing the Tomcat.
 
-Setp 1:- SO first of all you have to visit the site of Apache Tomcat:- https://tomcat.apache.org
+Setp 1:- So first of all you have to visit the site of Apache Tomcat:- https://tomcat.apache.org
 
 Step 2:- After visiting the website at the left side of the page you will see download section at there select
          the latest version of the Tomcat (in my case there is Tomcat 10) just click on the latest version.
@@ -21,19 +21,19 @@ Step 3:- On website in the Binary Distributions (which is a download section) un
 
 ![](https://imgur.com/wu9xlOw.jpg)
 
-step 4:- After clicking on the installer file your download will start automatically, after downloading the istaller file just open it you will se like this, click on next.
+Step 4:- After clicking on the installer file your download will start automatically, after downloading the istaller file just open it you will se like this, click on next.
 
 ![](https://i.imgur.com/I6YzY02.jpg)
 
-step 5:- Click on I Agree 
+Step 5:- Click on I Agree 
 
 ![](https://imgur.com/tDB242Z.jpg)
 
-step 6:- Change the install type from Normal to Full and then click on next.
+Step 6:- Change the install type from Normal to Full and then click on next.
 
 ![](https://imgur.com/IyxdMdL.jpg)
 
-step 7:- Don't change any thing just click on next, (basically installer automatically locates the java jdk folder but if it doesn't locate the jdk folder just browse and select the java jdk folder from where you have installed your java jdk) again next and then click on install.
+Step 7:- Don't change any thing just click on next, (basically installer automatically locates the java jdk folder but if it doesn't locate the jdk folder just browse and select the java jdk folder from where you have installed your java jdk) again next and then click on install.
 
 ![](https://imgur.com/JAL2BMY.jpg)
 

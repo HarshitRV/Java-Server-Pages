@@ -80,7 +80,7 @@ How to install Apache Tomcat on your devices.
 |----------------------------------------------------|----------------------------------------|
 |1. **[fullName](fullName)**| Prints the full name on the page.|
 |2. **[sum](sum)**| Calculated sum of two numbers.|
-|3. **[changeBg :](changeBg)**| Changes the background color of the pages on change of form value using JS.|
+|3. **[changeBg](changeBg)**| Changes the background color of the pages on change of form value using JS.|
 |4. **[sessionHandling](sessionHandling)**| This is the external jsp file of form4show that how we can change the external jsp Text color.|
 |5. **[get-creative](get-creative)**| This Folder contains a todo-list program made from jsp.|
 

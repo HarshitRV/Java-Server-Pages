@@ -38,9 +38,20 @@ How to install Apache Tomcat on your devices.
 
 <br>
 
-# Learning Programs <img src="https://i.imgur.com/4sdNnC4.gif"  height=38px>
+# JSP College Programs <img src="https://i.imgur.com/cyGIsw3.png" height=35px>
 
-| Programs                                           |Discription                             |
+
+|Folders                                            |Description                             |
+|----------------------------------------------------|----------------------------------------|
+|1. **[fullName](fullName)**| Prints the full name on the page.|
+|2. **[sum](sum)**| Calculated sum of two numbers.|
+|3. **[changeBg](changeBg)**| Changes the background color of the pages on change of form value using JS.|
+|4. **[sessionHandling](sessionHandling)**| This is the external jsp file of form4show that how we can change the external jsp Text color.|
+|5. **[get-creative](get-creative)**| This Folder contains a todo-list program made from jsp.|
+
+# Learning <img src="https://i.imgur.com/4sdNnC4.gif"  height=38px>
+
+| Programs                                           |Description                             |
 |----------------------------------------------------|----------------------------------------|
 |1. **[check.jsp:](learning/check.jsp)**| Program to check wheather web page is working on localhost or not.|
 |2. **[jsp_inside_html.jsp:](learning/jsp_inside_html.jsp)**| Program to show how to write JSP codes in html.|
@@ -57,10 +68,10 @@ How to install Apache Tomcat on your devices.
 |13. **[pageredirect.jsp:](learning/forms/pageredirect.jsp)**| Program to show how to redirect a page in jsp.|
 <br>
 
-# Backend JSP <img src="https://i.imgur.com/JIYDWXv.jpg" height=28px>
+# Miscellaneous Programs<img src="https://i.imgur.com/JIYDWXv.jpg" height=28px>
 
 
-|Programs                                            |Discription                             |
+|Programs                                            |Description                             |
 |----------------------------------------------------|----------------------------------------|
 |1. **[code1.jsp](learning/forms/jsp_files/code1.jsp)**| This is the external jsp file of form1 which show's how to write jsp externally.|
 |2. **[code2.jsp](learning/forms/jsp_files/code2.jsp)**| This is the external jsp file of form1 which check's weather the number is even or odd in the form.|
@@ -73,16 +84,7 @@ How to install Apache Tomcat on your devices.
 |9. **[invalid.jsp](learning/forms/jsp_files/invalid.jsp)**| This is the external jsp file of form8 which show's what will happen when the login is invalid.|
 |10. **[success.jsp](learning/forms/jsp_files/success.jsp)**| This is the external jsp file of form8 which show's what will happen when the login is valid.|
 
-# JSP Folders Description <img src="https://i.imgur.com/cyGIsw3.png" height=35px>
 
-
-|Folders                                            |Discription                             |
-|----------------------------------------------------|----------------------------------------|
-|1. **[fullName](fullName)**| Prints the full name on the page.|
-|2. **[sum](sum)**| Calculated sum of two numbers.|
-|3. **[changeBg](changeBg)**| Changes the background color of the pages on change of form value using JS.|
-|4. **[sessionHandling](sessionHandling)**| This is the external jsp file of form4show that how we can change the external jsp Text color.|
-|5. **[get-creative](get-creative)**| This Folder contains a todo-list program made from jsp.|
 
 
 
